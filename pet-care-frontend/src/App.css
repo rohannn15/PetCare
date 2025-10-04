@@ -1,0 +1,103 @@
+/* General container */
+.container {
+  margin: 30px auto;
+  max-width: 800px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.pet-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.pet-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 150px;
+}
+
+.pet-form .btn {
+  padding: 8px 14px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pet-form .btn:hover {
+  background: #219150;
+}
+
+/* Table */
+.pet-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.pet-table th,
+.pet-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.pet-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.pet-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pet-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Buttons */
+.btn {
+  margin: 2px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn.edit {
+  background: #3498db;
+  color: white;
+}
+
+.btn.edit:hover {
+  background: #2980b9;
+}
+
+.btn.delete {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn.delete:hover {
+  background: #c0392b;
+}
+
+/* Empty message */
+.empty {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
