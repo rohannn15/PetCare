@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PetCare/static/css/main.22d781cc.css",
+    "main.js": "/PetCare/static/js/main.d3f553e9.js",
+    "static/js/453.a790ea63.chunk.js": "/PetCare/static/js/453.a790ea63.chunk.js",
+    "index.html": "/PetCare/index.html",
+    "main.22d781cc.css.map": "/PetCare/static/css/main.22d781cc.css.map",
+    "main.d3f553e9.js.map": "/PetCare/static/js/main.d3f553e9.js.map",
+    "453.a790ea63.chunk.js.map": "/PetCare/static/js/453.a790ea63.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22d781cc.css",
+    "static/js/main.d3f553e9.js"
+  ]
+}
